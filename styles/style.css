@@ -182,7 +182,7 @@ ol {
 }
 
 .button {
-  border: 1px white solid;
+  border: 1px solid currentColor;
   padding: 6px 0;
   color: #ffff;
   font-family: inherit;
@@ -280,6 +280,7 @@ ol {
   text-align: left;
   text-transform: uppercase;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
@@ -288,6 +289,11 @@ ol {
   line-height: 16.2px;
   text-align: left;
   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
