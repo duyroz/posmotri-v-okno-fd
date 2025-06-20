@@ -77,7 +77,6 @@ ol {
   object-position: center;
 }
 
-
 .search-form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -137,7 +136,7 @@ ol {
 
 .search-form__textfield:hover {
   cursor: text;
- }
+}
 
 .search-form__textfield:active {
   border-color: #fff;
@@ -151,6 +150,7 @@ ol {
 .search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
 }
+
 .search-form__checkbox-list .search-form__label:has(:focus-visible) {
   outline: 1px #fff solid;
   outline-offset: 1px;
@@ -172,8 +172,6 @@ ol {
   cursor: pointer;
 }
 
-
-
 .search-form__checkbox:checked ~ .search-form__pseudo-checkbox::after,
 .search-form__checkbox:active ~ .search-form__pseudo-checkbox::after {
   content: "";
@@ -182,7 +180,6 @@ ol {
   height: 15px;
   background-color: #fff;
 }
-
 
 .button {
   border: 1px white solid;
@@ -215,7 +212,6 @@ ol {
   align-self: flex-end;
   width: 100%;
 }
-
 
 .content__details {
   grid-area: "content__details";
